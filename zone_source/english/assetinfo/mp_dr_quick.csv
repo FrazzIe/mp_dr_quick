@@ -1,0 +1,26 @@
+ignore,code_post_gfx_mp
+ignore,common_mp
+ignore,localized_code_post_gfx_mp
+ignore,localized_common_mp
+rawfile,vision/mp_dr_quick.vision
+rawfile,maps/mp/mp_dr_quick.gsc
+rawfile,maps/mp/mp_dr_quick_fx.gsc
+rawfile,maps/createfx/mp_dr_quick_fx.gsc
+col_map_mp,maps/mp/mp_dr_quick.d3dbsp
+impactfx,mp_dr_quick
+sound,common,mp_dr_quick,!all_mp
+sound,generic,mp_dr_quick,!all_mp
+sound,multiplayer,mp_dr_quick,!all_mp
+include,mptypes_desert
+// Loadscreen
+material,loadscreen_mp_dr_quick
+// Music menu
+localize,frzl_music
+menufile,ui_mp/frzl_music_info.inc
+menufile,ui_mp/scriptmenus/frzl_music.menu
+material,frzl_music_1
+material,frzl_music_2
+material,frzl_music_3
+material,frzl_music_4
+material,frzl_music_5
+sound,frzl_music,,all_mp,,
