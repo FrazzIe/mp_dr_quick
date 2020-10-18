@@ -115,6 +115,45 @@ startDoor(interval, time) {
 		door[i] moveX(int(door[i].script_noteworthy), time);
 }
 
+//Remove a row of platforms, animation (trap 4)
+removePlatform(amnt, time) {
+	self moveZ(amnt, time);
+	wait(time);
+	self delete();
+}
+
+//Move platform (trap 3)
+movePlatform(amnt, time, interval) {
+	while (true) {
+		self moveY(amnt, time);
+		wait(time);
+		wait(interval);
+		self moveY(0 - amnt, time);
+		wait(time);
+		wait(interval);
+	}
+}
+
+//Thread for moving spinner trap (trap 1 and 5)
+spinnerTrap(axis, amnt, time, interval) {
+	if (interval > 0)
+		wait(interval);
+
+	while(true) {
+		switch(axis) {
+			case "pitch":
+				self rotatePitch(amnt, time);
+				break;
+			case "yaw":
+				self rotateYaw(amnt, time);
+				break;
+			default:
+				break;
+		}
+		wait(time);
+	}
+}
+
 //Trap functionality
 trapData(id) {
 	self.activatedTraps[id] = false;
@@ -124,6 +163,19 @@ trapData(id) {
 		return;
 
 	switch(id) { //before activation functionality
+		case 0: //Rotating vertical spinners
+			//attach hurt trigger to rotating vertical spinners
+			for (i = 0; i < 2; i++) {
+				spinner = getEnt("trap_" + id + "_spinner_" + i, "targetname");
+				spinnerTrigger = getEnt("trap_" + id + "_hurt_" + i, "targetname");
+				spinnerTrigger enableLinkTo();
+				spinnerTrigger linkTo(spinner);
+			}
+			break;
+		case 3: //Make platform move
+			platform = getEnt("trap_" + id + "_platform", "targetname");
+			platform thread movePlatform(-320, 2, 1.5);
+			break;
 		default:
 			break;
 	}
@@ -133,6 +185,50 @@ trapData(id) {
 	level.trapTriggers[id] delete();
 
 	switch(id) { //after activation functionality
+		case 0: //Rotating vertical spinners
+			rotation = 360;
+			for (i = 0; i < 2; i++) {
+				spinner = getEnt("trap_" + id + "_spinner_" + i, "targetname");
+				spinner thread spinnerTrap("pitch", rotation, 2, 0);
+				rotation = 0 - rotation;
+			}
+			break;
+		case 1: //Remove 2 of 4 platforms
+			for (i = 0; i < 2; i++) {
+				platforms = getEntArray("trap_" + id + "_platform_" + i, "targetname");
+				randomPlatform = randomInt(platforms.size);
+				platforms[randomPlatform] hide();
+				platforms[randomPlatform] notSolid();
+			}
+			break;
+		case 2: //Remove a row of platforms
+			randomRow = randomInt(2);
+			platforms = getEntArray("trap_" + id + "_platform_" + randomRow, "targetname");
+			platformTime = 1;
+			for (i = 0; i < platforms.size; i++) {
+				platforms[i] thread removePlatform(-336, platformTime);
+				platformTime += 0.3;
+			}
+			break;
+		case 3: //Throw players off moving platform
+			mover = getEnt("trap_" + id + "_mover", "targetname");
+			mover moveX(-640, 1);
+			wait(1);
+			mover moveX(640, 1);
+			break;
+		case 4: //Rotating horizontal spinners
+			spinners = getEntArray("trap_" + id + "_spinner", "targetname");
+			rotation = 360;
+			for (i = 0; i < spinners.size; i++) {
+				spinners[i] thread spinnerTrap("yaw", rotation, 1.5, 0);
+				rotation = 0 - rotation;				
+			}
+			break;
+		case 5: //Ladder removal
+			ladders = getEntArray("trap_" + id + "_ladder", "targetname");
+			randomLadder = randomInt(ladders.size);
+			ladders[randomLadder] hide();
+			ladders[randomLadder] notSolid();
 		default:
 			break;
 	}
