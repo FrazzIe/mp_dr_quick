@@ -1,4 +1,3 @@
 # Custom Assets
 
-- [Skybox (tf_training)](http://cfgfactory.com/downloads/show/4c754d938224d), created by Gmzorz
-- [MTAR-X](http://cfgfactory.com/downloads/show/5a594394c914b), created by ConvictioNDR
+- [Skybox (tf_outpost)](http://cfgfactory.com/downloads/show/594c2490f3e34), created by Gmzorz
