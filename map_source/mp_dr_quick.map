@@ -4969,12 +4969,6 @@ iwmap 4
 }
 // entity 8
 {
-"origin" "-288.0 -640.0 -288.0"
-"classname" "misc_prefab"
-"model" "prefabs/_iw3xo/dynamic_collision_bmodels.map"
-}
-// entity 9
-{
 "hintstring" "Press ^3&&1 ^7to enter ^5Sniper"
 "script_noteworthy" "Sniper;3;remington700_mp;m40a3_mp"
 "targetname" "misc_1_trigger"
@@ -4989,7 +4983,7 @@ iwmap 4
  ( -176 -288 64 ) ( -176 -304 64 ) ( -176 -304 48 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 10
+// entity 9
 {
 "hintstring" "Press ^3&&1 ^7to enter ^5Knife"
 "script_noteworthy" "Knife;2;knife_mp"
@@ -5005,7 +4999,7 @@ iwmap 4
  ( -80 -288 176 ) ( -80 -304 176 ) ( -80 -304 160 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 11
+// entity 10
 {
 "hintstring" "Press ^3&&1 ^7to enter ^5MP5"
 "script_noteworthy" "Weapon;2;mp5_mp"
@@ -5021,7 +5015,7 @@ iwmap 4
  ( 16 -288 176 ) ( 16 -304 176 ) ( 16 -304 160 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 12
+// entity 11
 {
 "hintstring" "Press ^3&&1 ^7to enter ^5Bounce"
 "script_noteworthy" "Bounce;3;knife_mp"
@@ -5037,7 +5031,7 @@ iwmap 4
  ( 112 -288 176 ) ( 112 -304 176 ) ( 112 -304 160 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 13
+// entity 12
 {
 "targetname" "endmap_trig"
 "classname" "trigger_multiple"
@@ -5051,7 +5045,7 @@ iwmap 4
  ( -192 -624 32 ) ( -192 -640 32 ) ( -192 -640 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 14
+// entity 13
 {
 "hintstring" "Press ^3&&1 ^7to ^1spin"
 "targetname" "trap_4_trigger"
@@ -5066,7 +5060,7 @@ iwmap 4
  ( 1040 -240 48 ) ( 1040 -272 48 ) ( 1040 -272 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 15
+// entity 14
 {
 "hintstring" "Press ^3&&1 ^7to ^1throw jumpers off"
 "targetname" "trap_3_trigger"
@@ -5081,7 +5075,7 @@ iwmap 4
  ( 1040 752 48 ) ( 1040 720 48 ) ( 1040 720 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 16
+// entity 15
 {
 "hintstring" "Press ^3&&1 ^7to ^1spin"
 "targetname" "trap_0_trigger"
@@ -5096,7 +5090,7 @@ iwmap 4
  ( 528 528 48 ) ( 528 496 48 ) ( 528 496 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 17
+// entity 16
 {
 "hintstring" "Press ^3&&1 ^7to ^1remove"
 "targetname" "trap_1_trigger"
@@ -5111,7 +5105,7 @@ iwmap 4
  ( 528 1332 48 ) ( 528 1300 48 ) ( 528 1300 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 18
+// entity 17
 {
 "hintstring" "Press ^3&&1 ^7to ^1remove platform row"
 "targetname" "trap_2_trigger"
@@ -5126,7 +5120,7 @@ iwmap 4
  ( 672 1520 48 ) ( 672 1488 48 ) ( 672 1488 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 19
+// entity 18
 {
 "hintstring" "Press ^3&&1 ^7to ^1remove ladder"
 "classname" "trigger_use_touch"
@@ -5141,7 +5135,7 @@ iwmap 4
  ( 784 -688 48 ) ( 784 -720 48 ) ( 784 -720 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 20
+// entity 19
 {
 "targetname" "trap_0_spinner_1"
 "classname" "script_brushmodel"
@@ -5154,7 +5148,7 @@ iwmap 4
  ( -16 512 160 ) ( 16 512 160 ) ( -16 512 192 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 21
+// entity 20
 {
 "targetname" "trap_0_spinner_0"
 "classname" "script_brushmodel"
@@ -5167,7 +5161,7 @@ iwmap 4
  ( 16 512 160 ) ( -16 512 160 ) ( -16 512 192 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 22
+// entity 21
 {
 "targetname" "trap_1_platform_0"
 "classname" "script_brushmodel"
@@ -5217,7 +5211,7 @@ iwmap 4
  ( -160 1120 16 ) ( -96 1120 16 ) ( -96 1120 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 23
+// entity 22
 {
 "targetname" "trap_1_platform_0"
 "classname" "script_brushmodel"
@@ -5267,7 +5261,7 @@ iwmap 4
  ( 96 1184 16 ) ( 160 1184 16 ) ( 96 1184 48 ) caulk 64 64 256 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 24
+// entity 23
 {
 "targetname" "trap_1_platform_1"
 "classname" "script_brushmodel"
@@ -5317,7 +5311,7 @@ iwmap 4
  ( 96 1504 16 ) ( 160 1504 16 ) ( 96 1504 48 ) caulk 64 64 256 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 25
+// entity 24
 {
 "targetname" "trap_1_platform_1"
 "classname" "script_brushmodel"
@@ -5367,7 +5361,7 @@ iwmap 4
  ( -160 1504 16 ) ( -160 1424 16 ) ( -160 1504 48 ) caulk 64 64 320 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 26
+// entity 25
 {
 "targetname" "trap_2_platform_0"
 "classname" "script_brushmodel"
@@ -5417,7 +5411,7 @@ iwmap 4
  ( 352 1712 16 ) ( 352 1664 16 ) ( 352 1664 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 27
+// entity 26
 {
 "targetname" "trap_2_platform_0"
 "classname" "script_brushmodel"
@@ -5467,7 +5461,7 @@ iwmap 4
  ( 608 1984 16 ) ( 672 1984 16 ) ( 608 1984 48 ) me_office_ceiling_tiles 64 64 256 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 28
+// entity 27
 {
 "targetname" "trap_2_platform_0"
 "classname" "script_brushmodel"
@@ -5517,7 +5511,7 @@ iwmap 4
  ( 864 1824 16 ) ( 928 1824 16 ) ( 864 1824 48 ) me_office_ceiling_tiles 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 29
+// entity 28
 {
 "targetname" "trap_2_platform_1"
 "classname" "script_brushmodel"
@@ -5567,7 +5561,7 @@ iwmap 4
  ( 912 1952 16 ) ( 864 1952 16 ) ( 864 1952 48 ) caulk 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 30
+// entity 29
 {
 "targetname" "trap_2_platform_1"
 "classname" "script_brushmodel"
@@ -5617,7 +5611,7 @@ iwmap 4
  ( 656 1792 16 ) ( 608 1792 16 ) ( 608 1792 48 ) caulk 64 64 256 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 31
+// entity 30
 {
 "targetname" "trap_2_platform_1"
 "classname" "script_brushmodel"
@@ -5667,7 +5661,7 @@ iwmap 4
  ( 400 1952 16 ) ( 352 1952 16 ) ( 352 1952 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 32
+// entity 31
 {
 "targetname" "trap_3_platform"
 "classname" "script_brushmodel"
@@ -5717,7 +5711,7 @@ iwmap 4
  ( 1696 864 16 ) ( 1744 864 16 ) ( 1744 864 48 ) caulk 64 64 -256 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 33
+// entity 32
 {
 "targetname" "trap_3_mover"
 "classname" "script_brushmodel"
@@ -5767,7 +5761,7 @@ iwmap 4
  ( 1904 928 256 ) ( 1904 928 96 ) ( 1872 928 256 ) caulk 64 -64 -1360 -1920 -90 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 34
+// entity 33
 {
 "targetname" "trap_4_spinner"
 "classname" "script_brushmodel"
@@ -5783,7 +5777,7 @@ iwmap 4
  ( 1616 -192 72 ) ( 1600 -208 72 ) ( 1600 -208 104 ) icbm_hazardstripe2 64 64 0 24 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 35
+// entity 34
 {
 "targetname" "trap_4_spinner"
 "classname" "script_brushmodel"
@@ -5799,7 +5793,7 @@ iwmap 4
  ( 1616 -704 72 ) ( 1600 -720 72 ) ( 1600 -720 104 ) icbm_hazardstripe2 64 64 -512 24 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 36
+// entity 35
 {
 "targetname" "trap_5_ladder"
 "classname" "script_brushmodel"
@@ -5822,7 +5816,7 @@ iwmap 4
  ( 512 -1212 296 ) ( 512 -1220 296 ) ( 512 -1220 252 ) ladder 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 37
+// entity 36
 {
 "targetname" "trap_5_ladder"
 "classname" "script_brushmodel"
@@ -5845,7 +5839,7 @@ iwmap 4
  ( 1088 -900 296 ) ( 1088 -892 296 ) ( 1088 -892 252 ) ladder 64 -64 2112 0 180 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 38
+// entity 37
 {
 "script_noteworthy" "-192"
 "targetname" "start_door"
@@ -5896,7 +5890,7 @@ iwmap 4
  ( -184 228 232 ) ( -184 228 216 ) ( -184 260 232 ) me_fence_chainlink 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 39
+// entity 38
 {
 "script_noteworthy" "192"
 "targetname" "start_door"
@@ -5947,7 +5941,7 @@ iwmap 4
  ( -184 192 248 ) ( -104 192 248 ) ( -184 224 248 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 40
+// entity 39
 {
 "targetname" "trap_0_hurt_0"
 "dmg" "200"
@@ -5962,7 +5956,7 @@ iwmap 4
  ( -16 560 160 ) ( -16 512 160 ) ( -16 512 -480 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 41
+// entity 40
 {
 "targetname" "trap_0_hurt_1"
 "dmg" "200"
@@ -5977,147 +5971,147 @@ iwmap 4
  ( -16 512 160 ) ( -16 464 160 ) ( -16 464 -480 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 42
+// entity 41
 {
 "targetname" "misc_2_spawn_1_1"
 "angles" "0 25 0"
 "origin" "-1664.0 2432.0 56.0"
 "classname" "script_origin"
 }
-// entity 43
+// entity 42
 {
 "targetname" "misc_2_spawn_0_1"
 "angles" "0 205 0"
 "origin" "-1152.0 2688.0 56.0"
 "classname" "script_origin"
 }
-// entity 44
+// entity 43
 {
 "targetname" "misc_2_spawn_0_0"
 "angles" "0 270 0"
 "origin" "-1408.0 2944.0 56.0"
 "classname" "script_origin"
 }
-// entity 45
+// entity 44
 {
 "targetname" "misc_2_spawn_1_0"
 "angles" "0 90 0"
 "origin" "-1408.0 2144.0 56.0"
 "classname" "script_origin"
 }
-// entity 46
+// entity 45
 {
 "targetname" "misc_3_spawn_1_0"
 "angles" "0 0 0"
 "origin" "-832.0 2240.0 56.0"
 "classname" "script_origin"
 }
-// entity 47
+// entity 46
 {
 "targetname" "misc_3_spawn_0_0"
 "angles" "0 180 0"
 "origin" "-448.0 3136.0 56.0"
 "classname" "script_origin"
 }
-// entity 48
+// entity 47
 {
 "targetname" "misc_3_spawn_0_1"
 "angles" "0 0 0"
 "origin" "-832.0 2880.0 56.0"
 "classname" "script_origin"
 }
-// entity 49
+// entity 48
 {
 "targetname" "misc_3_spawn_1_1"
 "angles" "0 180 0"
 "origin" "-448.0 2496.0 56.0"
 "classname" "script_origin"
 }
-// entity 50
+// entity 49
 {
 "targetname" "misc_1_spawn_0_2"
 "angles" "0 0 0"
 "origin" "-104.0 2200.0 56.0"
 "classname" "script_origin"
 }
-// entity 51
+// entity 50
 {
 "targetname" "misc_1_spawn_1_1"
 "angles" "0 180 0"
 "origin" "1704.0 3176.0 56.0"
 "classname" "script_origin"
 }
-// entity 52
+// entity 51
 {
 "targetname" "misc_1_spawn_0_1"
 "angles" "0 0 0"
 "origin" "-104.0 3176.0 56.0"
 "classname" "script_origin"
 }
-// entity 53
+// entity 52
 {
 "targetname" "misc_1_spawn_1_2"
 "angles" "0 180 0"
 "origin" "1704.0 2200.0 56.0"
 "classname" "script_origin"
 }
-// entity 54
+// entity 53
 {
 "targetname" "misc_1_spawn_1_0"
 "angles" "0 180 0"
 "origin" "1704.0 2688.0 56.0"
 "classname" "script_origin"
 }
-// entity 55
+// entity 54
 {
 "targetname" "misc_1_spawn_0_0"
 "angles" "0 0 0"
 "origin" "-104.0 2688.0 56.0"
 "classname" "script_origin"
 }
-// entity 56
+// entity 55
 {
 "targetname" "misc_4_spawn_0_2"
 "angles" "0 270 0"
 "origin" "2560.0 2752.0 56.0"
 "classname" "script_origin"
 }
-// entity 57
+// entity 56
 {
 "targetname" "misc_4_spawn_0_1"
 "angles" "0 270 0"
 "origin" "2176.0 2752.0 56.0"
 "classname" "script_origin"
 }
-// entity 58
+// entity 57
 {
 "targetname" "misc_4_spawn_0_0"
 "angles" "0 270 0"
 "origin" "2368.0 2752.0 56.0"
 "classname" "script_origin"
 }
-// entity 59
+// entity 58
 {
 "targetname" "misc_4_spawn_1_1"
 "angles" "0 270 0"
 "origin" "3200.0 2752.0 56.0"
 "classname" "script_origin"
 }
-// entity 60
+// entity 59
 {
 "targetname" "misc_4_spawn_1_2"
 "angles" "0 270 0"
 "origin" "2816.0 2752.0 56.0"
 "classname" "script_origin"
 }
-// entity 61
+// entity 60
 {
 "targetname" "misc_4_spawn_1_0"
 "angles" "0 270 0"
 "origin" "3008.0 2752.0 56.0"
 "classname" "script_origin"
 }
-// entity 62
+// entity 61
 {
 "targetname" "misc_1_teleport_0"
 "classname" "trigger_multiple"
@@ -6131,7 +6125,7 @@ iwmap 4
  ( -152 2112 32 ) ( -184 2112 32 ) ( -184 2112 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 63
+// entity 62
 {
 "targetname" "misc_1_teleport_1"
 "classname" "trigger_multiple"
@@ -6145,7 +6139,7 @@ iwmap 4
  ( -136 2112 32 ) ( -168 2112 32 ) ( -168 2112 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 64
+// entity 63
 {
 "targetname" "misc_4_teleport_0"
 "classname" "trigger_multiple"
@@ -6159,7 +6153,7 @@ iwmap 4
  ( 2048 2912 -592 ) ( 2048 2608 -592 ) ( 2048 2608 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 65
+// entity 64
 {
 "targetname" "misc_4_teleport_1"
 "classname" "trigger_multiple"
@@ -6173,7 +6167,7 @@ iwmap 4
  ( 2688 2912 -592 ) ( 2688 2608 -592 ) ( 2688 2608 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 66
+// entity 65
 {
 "dmg" "200"
 "classname" "trigger_hurt"
@@ -6187,175 +6181,175 @@ iwmap 4
  ( -488 2040 336 ) ( -488 1952 336 ) ( -488 1952 -608 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 67
+// entity 66
 {
 "origin" "2688.0 376.0 256.0"
 "classname" "reflection_probe"
 }
-// entity 68
+// entity 67
 {
 "origin" "800.0 2688.0 256.0"
 "classname" "reflection_probe"
 }
-// entity 69
+// entity 68
 {
 "origin" "-640.0 2688.0 256.0"
 "classname" "reflection_probe"
 }
-// entity 70
+// entity 69
 {
 "origin" "-1408.0 2560.0 224.0"
 "classname" "reflection_probe"
 }
-// entity 71
+// entity 70
 {
 "origin" "-128.0 -64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 72
+// entity 71
 {
 "origin" "-64.0 -64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 73
+// entity 72
 {
 "origin" "0.0 -64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 74
+// entity 73
 {
 "origin" "64.0 -64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 75
+// entity 74
 {
 "origin" "128.0 -64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 76
+// entity 75
 {
 "origin" "192.0 -64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 77
+// entity 76
 {
 "origin" "-192.0 0.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 78
+// entity 77
 {
 "origin" "-128.0 0.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 79
+// entity 78
 {
 "origin" "-64.0 0.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 80
+// entity 79
 {
 "origin" "0.0 0.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 81
+// entity 80
 {
 "origin" "64.0 0.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 82
+// entity 81
 {
 "origin" "128.0 0.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 83
+// entity 82
 {
 "origin" "192.0 0.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 84
+// entity 83
 {
 "origin" "-192.0 64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 85
+// entity 84
 {
 "origin" "-128.0 64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 86
+// entity 85
 {
 "origin" "-64.0 64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 87
+// entity 86
 {
 "origin" "0.0 64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 88
+// entity 87
 {
 "origin" "64.0 64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 89
+// entity 88
 {
 "origin" "128.0 64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 90
+// entity 89
 {
 "origin" "192.0 64.0 40.0"
 "angles" "0 90 0"
 "classname" "mp_jumper_spawn"
 }
-// entity 91
+// entity 90
 {
 "angles" "0 270 0"
 "origin" "-293.5 174.5 39.5"
 "model" "prefabs/misc_models/com_laptop_open.map"
 "classname" "misc_prefab"
 }
-// entity 92
+// entity 91
 {
 "angles" "0 2.50448e-006 -90"
 "origin" "-277.5 165.5 45.5"
 "model" "prefabs/misc_models/com_speaker.map"
 "classname" "misc_prefab"
 }
-// entity 93
+// entity 92
 {
 "angles" "0 270 0"
 "model" "prefabs/misc_models/ch_crate24x36.map"
 "origin" "-288.0 176.0 16.0"
 "classname" "misc_prefab"
 }
-// entity 94
+// entity 93
 {
 "angles" "0 270 0"
 "origin" "-277.5 176.0 51.5"
 "model" "prefabs/misc_models/com_speaker.map"
 "classname" "misc_prefab"
 }
-// entity 95
+// entity 94
 {
 "hintstring" "Press ^3&&1 ^7to choose a ^5song"
 "targetname" "misc_0_trigger"
@@ -6370,7 +6364,7 @@ iwmap 4
  ( -320 192 48 ) ( -320 128 48 ) ( -320 128 32 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
-// entity 96
+// entity 95
 {
 "origin" "2672.0 -1088.0 88.0"
 "angles" "270 0 0"
@@ -6378,7 +6372,7 @@ iwmap 4
 "model" "weapon_m40a3"
 "classname" "misc_model"
 }
-// entity 97
+// entity 96
 {
 "origin" "2704.0 -1088.0 88.0"
 "angles" "270 180 -5.00896e-006"
@@ -6386,7 +6380,7 @@ iwmap 4
 "model" "weapon_remington700"
 "classname" "misc_model"
 }
-// entity 98
+// entity 97
 {
 "hintstring" "Press ^3&&1 ^7to take a ^5sniper"
 "script_noteworthy" "0;m40a3_mp;remington700_mp"
