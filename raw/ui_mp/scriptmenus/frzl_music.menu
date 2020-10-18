@@ -100,6 +100,5 @@
 		CHOICE_BUTTON_FOCUS_VIS_EX( 2, "@FRZL_MUSIC_2", scriptMenuResponse "2"; close self;, setLocalVarInt frzl_highlight 2;, setLocalVarInt frzl_highlight 0;, 1, name "frzl_music_2" )
 		CHOICE_BUTTON_FOCUS_VIS_EX( 3, "@FRZL_MUSIC_3", scriptMenuResponse "3"; close self;, setLocalVarInt frzl_highlight 3;, setLocalVarInt frzl_highlight 0;, 1, name "frzl_music_3" )
 		CHOICE_BUTTON_FOCUS_VIS_EX( 4, "@FRZL_MUSIC_4", scriptMenuResponse "4"; close self;, setLocalVarInt frzl_highlight 4;, setLocalVarInt frzl_highlight 0;, 1, name "frzl_music_4" )
-		CHOICE_BUTTON_FOCUS_VIS_EX( 5, "@FRZL_MUSIC_5", scriptMenuResponse "5"; close self;, setLocalVarInt frzl_highlight 5;, setLocalVarInt frzl_highlight 0;, 1, name "frzl_music_5" )
 	}
 }
