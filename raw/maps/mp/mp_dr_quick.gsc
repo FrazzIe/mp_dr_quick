@@ -343,6 +343,7 @@ miscData(id) {
 					}
 					wait(1);
 				} //Countdown
+				break;
 			case 5: //Bounce room weapon pickup
 				weapons = strTok(miscTrigger.script_noteworthy, ";");
 				weapon = weapons[1];
