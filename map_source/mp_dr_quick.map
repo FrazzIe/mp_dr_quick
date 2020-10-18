@@ -3290,17 +3290,17 @@ iwmap 4
 {
  ( 2496 3248 0 ) ( 2048 3248 0 ) ( 2048 2800 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2000 2800 16 ) ( 2000 3248 16 ) ( 2448 3248 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2604 3264 336 ) ( 2156 3264 336 ) ( 2156 3264 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2596 2912 336 ) ( 2148 2912 336 ) ( 2148 2912 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2048 3248 336 ) ( 2048 2800 336 ) ( 2048 2800 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2032 2608 336 ) ( 2480 2608 336 ) ( 2480 2608 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2080 2656 16 ) ( 2080 2608 16 ) ( 2080 2608 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 2304 16 ) ( 2080 2256 16 ) ( 2080 2256 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 357
 {
  ( 3136 3248 0 ) ( 2688 3248 0 ) ( 2688 2800 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2640 2800 16 ) ( 2640 3248 16 ) ( 3088 3248 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 3328 2752 16 ) ( 3328 3200 16 ) ( 3328 3200 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3244 3264 336 ) ( 2796 3264 336 ) ( 2796 3264 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3236 2912 336 ) ( 2788 2912 336 ) ( 2788 2912 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2672 2608 336 ) ( 3120 2608 336 ) ( 3120 2608 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 3296 2624 16 ) ( 3296 2664 16 ) ( 3296 2624 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
@@ -3324,39 +3324,39 @@ iwmap 4
 }
 // brush 360
 {
- ( 3136 3248 0 ) ( 2688 3248 0 ) ( 2688 2800 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2640 2800 16 ) ( 2640 3248 16 ) ( 3088 3248 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3244 3264 336 ) ( 2796 3264 336 ) ( 2796 3264 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2688 3248 336 ) ( 2688 2800 336 ) ( 2688 2800 320 ) caulk 64 64 2992 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3296 2664 16 ) ( 3296 2624 16 ) ( 3296 2624 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3288 3232 16 ) ( 3256 3232 16 ) ( 3288 3232 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3136 2896 0 ) ( 2688 2896 0 ) ( 2688 2448 0 ) me_office_ceiling_tiles_black 64 64 0 352 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2640 2448 16 ) ( 2640 2896 16 ) ( 3088 2896 16 ) me_office_ceiling_tiles_black 64 64 0 352 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3244 2912 336 ) ( 2796 2912 336 ) ( 2796 2912 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2896 336 ) ( 2688 2448 336 ) ( 2688 2448 320 ) caulk 64 64 2640 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3296 2312 16 ) ( 3296 2272 16 ) ( 3296 2272 48 ) caulk 64 64 -352 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3288 2880 16 ) ( 3256 2880 16 ) ( 3288 2880 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 361
 {
  ( 3136 3248 0 ) ( 2688 3248 0 ) ( 2688 2800 0 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2640 2800 16 ) ( 2640 3248 16 ) ( 3088 3248 16 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2688 3248 336 ) ( 2688 2800 336 ) ( 2688 2800 320 ) caulk 64 64 2992 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2896 336 ) ( 2688 2448 336 ) ( 2688 2448 320 ) caulk 64 64 2992 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 3296 2664 16 ) ( 3296 2624 16 ) ( 3296 2624 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 3296 2640 16 ) ( 3280 2640 16 ) ( 3296 2640 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3256 3232 16 ) ( 3288 3232 16 ) ( 3288 3232 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3256 2880 16 ) ( 3288 2880 16 ) ( 3288 2880 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 362
 {
- ( 2496 3248 0 ) ( 2048 3248 0 ) ( 2048 2800 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2000 2800 16 ) ( 2000 3248 16 ) ( 2448 3248 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2688 2752 16 ) ( 2688 3200 16 ) ( 2688 3200 0 ) caulk 64 64 2992 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2604 3264 336 ) ( 2156 3264 336 ) ( 2156 3264 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2080 2608 16 ) ( 2080 2656 16 ) ( 2080 2608 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3288 3232 16 ) ( 3256 3232 16 ) ( 3288 3232 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2496 2896 0 ) ( 2048 2896 0 ) ( 2048 2448 0 ) me_office_ceiling_tiles_black 64 64 0 352 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2000 2448 16 ) ( 2000 2896 16 ) ( 2448 2896 16 ) me_office_ceiling_tiles_black 64 64 0 352 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2400 16 ) ( 2688 2848 16 ) ( 2688 2848 0 ) caulk 64 64 2640 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2604 2912 336 ) ( 2156 2912 336 ) ( 2156 2912 320 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 2256 16 ) ( 2080 2304 16 ) ( 2080 2256 48 ) caulk 64 64 -352 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3288 2880 16 ) ( 3256 2880 16 ) ( 3288 2880 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 363
 {
  ( 2496 3248 0 ) ( 2048 3248 0 ) ( 2048 2800 0 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2000 2800 16 ) ( 2000 3248 16 ) ( 2448 3248 16 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 2688 2752 16 ) ( 2688 3200 16 ) ( 2688 3200 0 ) caulk 64 64 2992 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2400 16 ) ( 2688 2848 16 ) ( 2688 2848 0 ) caulk 64 64 2992 -320 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 2080 2608 16 ) ( 2080 2656 16 ) ( 2080 2608 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 3296 2640 16 ) ( 3280 2640 16 ) ( 3296 2640 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3256 3232 16 ) ( 3288 3232 16 ) ( 3288 3232 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3256 2880 16 ) ( 3288 2880 16 ) ( 3288 2880 48 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 364
 {
@@ -4521,6 +4521,7 @@ iwmap 4
 }
 // entity 9
 {
+"hintstring" "Press ^3&&1 ^7to enter ^5Sniper"
 "script_noteworthy" "Sniper;3;remington700_mp;m40a3_mp"
 "targetname" "misc_1_trigger"
 "classname" "trigger_use_touch"
@@ -4536,6 +4537,7 @@ iwmap 4
 }
 // entity 10
 {
+"hintstring" "Press ^3&&1 ^7to enter ^5Knife"
 "script_noteworthy" "Knife;2;knife_mp"
 "targetname" "misc_2_trigger"
 "classname" "trigger_use_touch"
@@ -4551,6 +4553,7 @@ iwmap 4
 }
 // entity 11
 {
+"hintstring" "Press ^3&&1 ^7to enter ^5MP5"
 "script_noteworthy" "Bounce;2;mp5_mp"
 "targetname" "misc_3_trigger"
 "classname" "trigger_use_touch"
@@ -4566,6 +4569,7 @@ iwmap 4
 }
 // entity 12
 {
+"hintstring" "Press ^3&&1 ^7to enter ^5Bounce"
 "script_noteworthy" "Bounce;2;knife_mp"
 "targetname" "misc_4_trigger"
 "classname" "trigger_use_touch"
@@ -5517,5 +5521,201 @@ iwmap 4
  ( 16 464 160 ) ( 16 512 160 ) ( 16 512 -480 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 16 512 160 ) ( -16 512 160 ) ( -16 512 -480 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -16 512 160 ) ( -16 464 160 ) ( -16 464 -480 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 42
+{
+"targetname" "misc_2_spawn_1_1"
+"angles" "0 25 0"
+"origin" "-896.0 1408.0 56.0"
+"classname" "script_origin"
+}
+// entity 43
+{
+"targetname" "misc_2_spawn_0_1"
+"angles" "0 205 0"
+"origin" "-384.0 1664.0 56.0"
+"classname" "script_origin"
+}
+// entity 44
+{
+"targetname" "misc_2_spawn_0_0"
+"angles" "0 270 0"
+"origin" "-640.0 1920.0 56.0"
+"classname" "script_origin"
+}
+// entity 45
+{
+"targetname" "misc_2_spawn_1_0"
+"angles" "0 90 0"
+"origin" "-640.0 1120.0 56.0"
+"classname" "script_origin"
+}
+// entity 46
+{
+"targetname" "misc_3_spawn_1_0"
+"angles" "0 0 0"
+"origin" "-832.0 2240.0 56.0"
+"classname" "script_origin"
+}
+// entity 47
+{
+"targetname" "misc_3_spawn_0_0"
+"angles" "0 180 0"
+"origin" "-448.0 3136.0 56.0"
+"classname" "script_origin"
+}
+// entity 48
+{
+"targetname" "misc_3_spawn_0_1"
+"angles" "0 0 0"
+"origin" "-832.0 2880.0 56.0"
+"classname" "script_origin"
+}
+// entity 49
+{
+"targetname" "misc_3_spawn_1_1"
+"angles" "0 180 0"
+"origin" "-448.0 2496.0 56.0"
+"classname" "script_origin"
+}
+// entity 50
+{
+"targetname" "misc_1_spawn_0_2"
+"angles" "0 0 0"
+"origin" "-104.0 2200.0 56.0"
+"classname" "script_origin"
+}
+// entity 51
+{
+"targetname" "misc_1_spawn_1_1"
+"angles" "0 180 0"
+"origin" "1704.0 3176.0 56.0"
+"classname" "script_origin"
+}
+// entity 52
+{
+"targetname" "misc_1_spawn_0_1"
+"angles" "0 0 0"
+"origin" "-104.0 3176.0 56.0"
+"classname" "script_origin"
+}
+// entity 53
+{
+"targetname" "misc_1_spawn_1_2"
+"angles" "0 180 0"
+"origin" "1704.0 2200.0 56.0"
+"classname" "script_origin"
+}
+// entity 54
+{
+"targetname" "misc_1_spawn_1_0"
+"angles" "0 180 0"
+"origin" "1704.0 2688.0 56.0"
+"classname" "script_origin"
+}
+// entity 55
+{
+"targetname" "misc_1_spawn_0_0"
+"angles" "0 0 0"
+"origin" "-104.0 2688.0 56.0"
+"classname" "script_origin"
+}
+// entity 56
+{
+"targetname" "misc_4_spawn_0_2"
+"angles" "0 270 0"
+"origin" "2560.0 2752.0 56.0"
+"classname" "script_origin"
+}
+// entity 57
+{
+"targetname" "misc_4_spawn_0_1"
+"angles" "0 270 0"
+"origin" "2176.0 2752.0 56.0"
+"classname" "script_origin"
+}
+// entity 58
+{
+"targetname" "misc_4_spawn_0_0"
+"angles" "0 270 0"
+"origin" "2368.0 2752.0 56.0"
+"classname" "script_origin"
+}
+// entity 59
+{
+"targetname" "misc_4_spawn_1_1"
+"angles" "0 270 0"
+"origin" "3200.0 2752.0 56.0"
+"classname" "script_origin"
+}
+// entity 60
+{
+"targetname" "misc_4_spawn_1_2"
+"angles" "0 270 0"
+"origin" "2816.0 2752.0 56.0"
+"classname" "script_origin"
+}
+// entity 61
+{
+"targetname" "misc_4_spawn_1_0"
+"angles" "0 270 0"
+"origin" "3008.0 2752.0 56.0"
+"classname" "script_origin"
+}
+// entity 62
+{
+"targetname" "misc_1_teleport_0"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 288 3136 -304 ) ( -160 3136 -304 ) ( -160 2688 -304 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -160 2688 -296 ) ( -160 3136 -296 ) ( 288 3136 -296 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 800 2624 -616 ) ( 800 3072 -616 ) ( 800 3072 -632 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 448 3096 32 ) ( 448 2648 32 ) ( 448 2648 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -184 3264 32 ) ( -160 3264 32 ) ( -184 3264 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -152 2112 32 ) ( -184 2112 32 ) ( -184 2112 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 63
+{
+"targetname" "misc_1_teleport_1"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 576 3136 -304 ) ( 128 3136 -304 ) ( 128 2688 -304 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 2688 -296 ) ( 128 3136 -296 ) ( 576 3136 -296 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1152 2664 32 ) ( 1152 3112 32 ) ( 1152 3112 16 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 800 3088 -616 ) ( 800 2640 -616 ) ( 800 2640 -632 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -184 3264 32 ) ( -160 3264 32 ) ( -184 3264 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -136 2112 32 ) ( -168 2112 32 ) ( -168 2112 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 64
+{
+"targetname" "misc_4_teleport_0"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 2688 2912 -608 ) ( 2048 2912 -608 ) ( 2048 2608 -608 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 2608 -592 ) ( 2048 2912 -592 ) ( 2688 2912 -592 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -1216 -592 ) ( 2720 -1216 -592 ) ( 2720 -1216 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2608 -592 ) ( 2688 2912 -592 ) ( 2688 2912 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2912 -592 ) ( 2048 2912 -592 ) ( 2048 2912 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 2912 -592 ) ( 2048 2608 -592 ) ( 2048 2608 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 65
+{
+"targetname" "misc_4_teleport_1"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 3328 2912 -608 ) ( 2688 2912 -608 ) ( 2688 2608 -608 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2608 -592 ) ( 2688 2912 -592 ) ( 3328 2912 -592 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2720 -1216 -592 ) ( 3360 -1216 -592 ) ( 3360 -1216 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3328 2608 -592 ) ( 3328 2912 -592 ) ( 3328 2912 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3328 2912 -592 ) ( 2688 2912 -592 ) ( 2688 2912 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2688 2912 -592 ) ( 2688 2608 -592 ) ( 2688 2608 -608 ) trigger 64 64 0 608 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
