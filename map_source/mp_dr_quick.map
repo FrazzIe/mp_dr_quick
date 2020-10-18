@@ -402,7 +402,7 @@ iwmap 4
 // brush 41
 {
  ( 32 296 0 ) ( -416 296 0 ) ( -416 -152 0 ) caulk 64 64 -192 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -416 -152 16 ) ( -416 296 16 ) ( 32 296 16 ) caulk 64 64 -192 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -416 -152 16 ) ( -416 296 16 ) ( 32 296 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -344 216 16 ) ( 104 216 16 ) ( 104 216 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -192 -152 16 ) ( -192 296 16 ) ( -192 296 0 ) caulk 64 64 40 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 32 232 16 ) ( -416 232 16 ) ( -416 232 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -411,7 +411,7 @@ iwmap 4
 // brush 42
 {
  ( 608 296 0 ) ( 160 296 0 ) ( 160 -152 0 ) caulk 64 64 384 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 160 -152 16 ) ( 160 296 16 ) ( 608 296 16 ) caulk 64 64 384 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 160 -152 16 ) ( 160 296 16 ) ( 608 296 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 232 216 16 ) ( 680 216 16 ) ( 680 216 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 384 -152 16 ) ( 384 296 16 ) ( 384 296 0 ) caulk 64 64 40 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 608 232 16 ) ( 160 232 16 ) ( 160 232 0 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -428,7 +428,7 @@ iwmap 4
 }
 // brush 44
 {
- ( 32 296 256 ) ( -416 296 256 ) ( -416 -152 256 ) caulk 64 64 -192 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 296 256 ) ( -416 296 256 ) ( -416 -152 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -416 -152 272 ) ( -416 296 272 ) ( 32 296 272 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -344 216 272 ) ( 104 216 272 ) ( 104 216 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -192 -152 272 ) ( -192 296 272 ) ( -192 296 256 ) caulk 64 64 40 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -437,7 +437,7 @@ iwmap 4
 }
 // brush 45
 {
- ( 608 296 256 ) ( 160 296 256 ) ( 160 -152 256 ) caulk 64 64 384 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 608 296 256 ) ( 160 296 256 ) ( 160 -152 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 160 -152 272 ) ( 160 296 272 ) ( 608 296 272 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 232 216 272 ) ( 680 216 272 ) ( 680 216 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 384 -152 272 ) ( 384 296 272 ) ( 384 296 256 ) caulk 64 64 40 -256 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -451,7 +451,7 @@ iwmap 4
  ( -192 -152 256 ) ( -192 296 256 ) ( -192 296 240 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 32 232 32 ) ( -416 232 32 ) ( -416 232 16 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -384 296 32 ) ( -384 -152 32 ) ( -384 -152 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 192 228 216 ) ( 192 228 252 ) ( 224 228 252 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 228 216 ) ( 192 228 252 ) ( 224 228 252 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 47
 {
@@ -460,7 +460,7 @@ iwmap 4
  ( 384 -152 32 ) ( 384 296 32 ) ( 384 296 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 608 232 32 ) ( 160 232 32 ) ( 160 232 16 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 192 296 256 ) ( 192 -152 256 ) ( 192 -152 240 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 192 228 216 ) ( 192 228 252 ) ( 224 228 252 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 228 216 ) ( 192 228 252 ) ( 224 228 252 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 48
 {
@@ -469,7 +469,7 @@ iwmap 4
  ( -136 216 32 ) ( 312 216 32 ) ( 312 216 16 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -192 -152 256 ) ( -192 296 256 ) ( -192 296 240 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -384 296 32 ) ( -384 -152 32 ) ( -384 -152 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 192 220 256 ) ( 192 220 224 ) ( 224 220 256 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 220 256 ) ( 192 220 224 ) ( 224 220 256 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 49
 {
@@ -478,14 +478,14 @@ iwmap 4
  ( 232 216 32 ) ( 680 216 32 ) ( 680 216 16 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 384 -152 32 ) ( 384 296 32 ) ( 384 296 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 192 296 256 ) ( 192 -152 256 ) ( 192 -152 240 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 192 220 256 ) ( 192 220 224 ) ( 224 220 256 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 220 256 ) ( 192 220 224 ) ( 224 220 256 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 50
 {
  ( -384 244 0 ) ( -400 244 0 ) ( -400 228 0 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -400 216 272 ) ( -400 232 272 ) ( -384 232 272 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -400 216 272 ) ( -384 216 272 ) ( -384 216 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -384 216 272 ) ( -384 232 272 ) ( -384 232 256 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -384 216 272 ) ( -384 232 272 ) ( -384 232 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -384 232 272 ) ( -400 232 272 ) ( -400 232 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -400 232 272 ) ( -400 216 272 ) ( -400 216 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
@@ -496,7 +496,7 @@ iwmap 4
  ( 384 216 272 ) ( 400 216 272 ) ( 400 216 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 400 216 272 ) ( 400 232 272 ) ( 400 232 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 400 232 272 ) ( 384 232 272 ) ( 384 232 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 384 232 272 ) ( 384 216 272 ) ( 384 216 256 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 384 232 272 ) ( 384 216 272 ) ( 384 216 256 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 52
 {
@@ -2536,12 +2536,12 @@ iwmap 4
 }
 // brush 272
 {
- ( -512 1856 -320 ) ( -960 1856 -320 ) ( -960 1408 -320 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 1856 -320 ) ( -960 1856 -320 ) ( -960 1408 -320 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1008 1408 -304 ) ( -1008 1856 -304 ) ( -560 1856 -304 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -400 1864 16 ) ( -848 1864 16 ) ( -848 1864 0 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -976 1208 16 ) ( -528 1208 16 ) ( -528 1208 0 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -928 1848 336 ) ( -928 1864 336 ) ( -928 1864 368 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -352 1856 336 ) ( -352 1840 336 ) ( -352 1856 368 ) me_office_ceiling_tiles 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -400 1864 16 ) ( -848 1864 16 ) ( -848 1864 0 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 1208 16 ) ( -528 1208 16 ) ( -528 1208 0 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -928 1848 336 ) ( -928 1864 336 ) ( -928 1864 368 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -352 1856 336 ) ( -352 1840 336 ) ( -352 1856 368 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 273
 {
@@ -5306,7 +5306,7 @@ iwmap 4
 {
  ( 224 296 16 ) ( -224 296 16 ) ( -224 -152 16 ) caulk 64 64 0 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 56 220 32 ) ( 504 220 32 ) ( 504 220 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 0 -152 256 ) ( 0 296 256 ) ( 0 296 240 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -152 256 ) ( 0 296 256 ) ( 0 296 240 ) me_office_ceiling_tiles_black 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 224 228 32 ) ( -224 228 32 ) ( -224 228 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -192 296 32 ) ( -192 -152 32 ) ( -192 -152 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -128 192 24 ) ( -176 192 24 ) ( -176 224 24 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -5314,7 +5314,7 @@ iwmap 4
 // brush 1
 {
  ( 56 220 32 ) ( 504 220 32 ) ( 504 220 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 0 -152 256 ) ( 0 296 256 ) ( 0 296 240 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -152 256 ) ( 0 296 256 ) ( 0 296 240 ) me_office_ceiling_tiles_black 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 224 228 32 ) ( -224 228 32 ) ( -224 228 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -104 192 248 ) ( -184 192 248 ) ( -184 224 248 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -176 192 24 ) ( -128 192 24 ) ( -176 224 24 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -5324,7 +5324,7 @@ iwmap 4
 {
  ( -224 -152 256 ) ( -224 296 256 ) ( 224 296 256 ) caulk 64 64 0 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 56 220 32 ) ( 504 220 32 ) ( 504 220 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 0 -152 256 ) ( 0 296 256 ) ( 0 296 240 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -152 256 ) ( 0 296 256 ) ( 0 296 240 ) me_office_ceiling_tiles_black 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 224 228 32 ) ( -224 228 32 ) ( -224 228 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -192 296 32 ) ( -192 -152 32 ) ( -192 -152 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -184 192 248 ) ( -104 192 248 ) ( -184 224 248 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -5359,14 +5359,14 @@ iwmap 4
  ( 248 220 32 ) ( 696 220 32 ) ( 696 220 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 192 -152 256 ) ( 192 296 256 ) ( 192 296 240 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 416 228 32 ) ( -32 228 32 ) ( -32 228 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 0 296 32 ) ( 0 -152 32 ) ( 0 -152 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 296 32 ) ( 0 -152 32 ) ( 0 -152 16 ) me_office_ceiling_tiles_black 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -128 192 24 ) ( -176 192 24 ) ( -176 224 24 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 1
 {
  ( 248 220 32 ) ( 696 220 32 ) ( 696 220 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 416 228 32 ) ( -32 228 32 ) ( -32 228 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 0 296 32 ) ( 0 -152 32 ) ( 0 -152 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 296 32 ) ( 0 -152 32 ) ( 0 -152 16 ) me_office_ceiling_tiles_black 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -104 192 248 ) ( -184 192 248 ) ( -184 224 248 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -176 192 24 ) ( -128 192 24 ) ( -176 224 24 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 8 228 216 ) ( 8 228 232 ) ( 8 260 232 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
@@ -5395,7 +5395,7 @@ iwmap 4
  ( 248 220 32 ) ( 696 220 32 ) ( 696 220 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 192 -152 256 ) ( 192 296 256 ) ( 192 296 240 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 416 228 32 ) ( -32 228 32 ) ( -32 228 16 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 0 296 32 ) ( 0 -152 32 ) ( 0 -152 16 ) caulk 64 64 40 -16 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 296 32 ) ( 0 -152 32 ) ( 0 -152 16 ) me_office_ceiling_tiles_black 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -184 192 248 ) ( -104 192 248 ) ( -184 224 248 ) me_office_ceiling_tiles_black 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 }
