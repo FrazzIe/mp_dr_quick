@@ -343,6 +343,9 @@ miscData(id) {
 					}
 					wait(1);
 				} //Countdown
+
+				for (side = 0; side < spawnSide.size; side++) //setup in-room teleports
+					thread roomTeleportListener(id, side, spawnCount);
 				break;
 			case 5: //Bounce room weapon pickup
 				weapons = strTok(miscTrigger.script_noteworthy, ";");

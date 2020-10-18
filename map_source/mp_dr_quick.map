@@ -5041,7 +5041,7 @@ iwmap 4
 // entity 11
 {
 "hintstring" "Press ^3&&1 ^7to enter ^5MP5"
-"script_noteworthy" "Bounce;2;mp5_mp"
+"script_noteworthy" "Weapon;2;mp5_mp"
 "targetname" "misc_3_trigger"
 "classname" "trigger_use_touch"
 // brush 0
@@ -5057,7 +5057,7 @@ iwmap 4
 // entity 12
 {
 "hintstring" "Press ^3&&1 ^7to enter ^5Bounce"
-"script_noteworthy" "Bounce;2;knife_mp"
+"script_noteworthy" "Bounce;3;knife_mp"
 "targetname" "misc_4_trigger"
 "classname" "trigger_use_touch"
 // brush 0
