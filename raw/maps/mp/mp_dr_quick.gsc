@@ -45,24 +45,21 @@ main() {
 	//Music info (name, duration)
 	self.songs = [];
 	self.songs[0] = [];
-	self.songs[0][0] = "";
-	self.songs[0][1] = 0;
+	self.songs[0][0] = "Clean Bandit - Solo";
+	self.songs[0][1] = 223;
 	self.songs[1] = [];
-	self.songs[1][0] = "";
-	self.songs[1][1] = 0;
+	self.songs[1][0] = "Armin van Buuren - Blah Blah Blah";
+	self.songs[1][1] = 194;
 	self.songs[2] = [];
-	self.songs[2][0] = "";
-	self.songs[2][1] = 0;
+	self.songs[2][0] = "Sean Paul - No Lie";
+	self.songs[2][1] = 228;
 	self.songs[3] = [];
-	self.songs[3][0] = "";
-	self.songs[3][1] = 0;
-	self.songs[4] = [];
-	self.songs[4][0] = "";
-	self.songs[4][1] = 0;
+	self.songs[3][0] = "Human";
+	self.songs[3][1] = 197;
 	//Music Info End
 
 	//Map messages
-	self.messages = "Created by Frazzle.";
+	self.messages = "Created by Frazzle.;Discord: frazzle#6627";
 
 	precacheItem("m40a3_mp");
 	precacheItem("remington700_mp"); //sniper room
