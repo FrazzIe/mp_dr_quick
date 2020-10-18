@@ -4521,6 +4521,8 @@ iwmap 4
 }
 // entity 9
 {
+"script_noteworthy" "Sniper;3;remington700_mp;m40a3_mp"
+"targetname" "misc_1_trigger"
 "classname" "trigger_use_touch"
 // brush 0
 {
@@ -4534,6 +4536,8 @@ iwmap 4
 }
 // entity 10
 {
+"script_noteworthy" "Knife;2;knife_mp"
+"targetname" "misc_2_trigger"
 "classname" "trigger_use_touch"
 // brush 0
 {
@@ -4547,6 +4551,8 @@ iwmap 4
 }
 // entity 11
 {
+"script_noteworthy" "Bounce;2;mp5_mp"
+"targetname" "misc_3_trigger"
 "classname" "trigger_use_touch"
 // brush 0
 {
@@ -4560,6 +4566,8 @@ iwmap 4
 }
 // entity 12
 {
+"script_noteworthy" "Bounce;2;knife_mp"
+"targetname" "misc_4_trigger"
 "classname" "trigger_use_touch"
 // brush 0
 {
