@@ -172,7 +172,7 @@ trapData(id) {
 			break;
 		case 3: //Make platform move
 			platform = getEnt("trap_" + id + "_platform", "targetname");
-			platform thread movePlatform(-320, 2, 1.5);
+			platform thread movePlatform(-384, 1.5, 1);
 			break;
 		default:
 			break;
