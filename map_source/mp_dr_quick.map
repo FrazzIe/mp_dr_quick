@@ -6237,3 +6237,10 @@ iwmap 4
 "model" "weapon_m40a3"
 "classname" "misc_model"
 }
+// entity 97
+{
+"origin" "800.0 400.0 72.0"
+"targetname" "activator_wait_area"
+"angles" "0 180 0"
+"classname" "script_origin"
+}
