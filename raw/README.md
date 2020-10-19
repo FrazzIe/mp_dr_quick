@@ -1,3 +1,3 @@
 # Custom Assets
 
-- [Skybox (tf_outpost)](http://cfgfactory.com/downloads/show/594c2490f3e34), created by Gmzorz
+- [Skybox (Magical sky)](http://cfgfactory.com/downloads/show/5182ef572706b), created by M4D4SS
