@@ -5,7 +5,7 @@ A CoD4 deathrun map for [Deathrun 1.2 Mod by BraXi](https://github.com/BraXi/CoD
 I got bored while watching a lecture and started making this, it took around 12 hours or to complete.
 
 ### Features
-- Custom music menu (5 songs, changeable)
+- Custom music menu (4 songs, changeable)
 - No secrets, what so ever
 - 6 activator traps
 - 4 End choices
