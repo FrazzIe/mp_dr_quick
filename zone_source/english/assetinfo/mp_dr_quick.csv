@@ -15,7 +15,6 @@ include,mptypes_desert
 // Loadscreen
 material,loadscreen_mp_dr_quick
 // Music menu
-localize,frzl_music
 menufile,ui_mp/frzl_music_info.inc
 menufile,ui_mp/scriptmenus/frzl_music.menu
 material,frzl_music_1
