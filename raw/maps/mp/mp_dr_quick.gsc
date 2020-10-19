@@ -59,7 +59,7 @@ main() {
 	//Music Info End
 
 	//Map messages
-	self.messages = "Created by Frazzle.;Discord: frazzle#6627";
+	self.messages = "Created by Frazzle.;Discord: frazzle#6627;This was a ^3quick ^7map created in 12hours~";
 
 	precacheItem("m40a3_mp");
 	precacheItem("remington700_mp"); //sniper room
