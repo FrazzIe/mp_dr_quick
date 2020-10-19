@@ -1,4 +1,4 @@
-r_glow                    "1"
+r_glow                    "0"
 r_glowRadius0             "25.2691"
 r_glowRadius1             "25.7724"
 r_glowBloomCutoff         "0.925522"

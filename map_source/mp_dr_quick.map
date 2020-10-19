@@ -3859,7 +3859,7 @@ iwmap 4
  ( 3544 0 -240 ) ( 3544 216 -240 ) ( 3544 216 -256 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 256 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -176 3584 -240 ) ( -368 3584 -240 ) ( -368 3584 -256 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 256 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1472 264 -240 ) ( -1472 48 -240 ) ( -1472 48 -256 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 256 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 1032 256 -760 ) ( 1224 256 -760 ) ( 1032 40 -760 ) sky_sp_icbm_a 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1032 256 -760 ) ( 1224 256 -760 ) ( 1032 40 -760 ) sky_sp_icbm_a 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 415
 {
@@ -3868,7 +3868,7 @@ iwmap 4
  ( 3544 0 144 ) ( 3544 216 144 ) ( 3544 216 128 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -432 3584 144 ) ( -624 3584 144 ) ( -624 3584 128 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1472 240 144 ) ( -1472 24 144 ) ( -1472 24 128 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 352 256 568 ) ( 352 40 568 ) ( 544 256 568 ) sky_sp_icbm_a 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 352 256 568 ) ( 352 40 568 ) ( 544 256 568 ) sky_sp_icbm_a 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 416
 {
@@ -3877,7 +3877,7 @@ iwmap 4
  ( -520 -1344 16 ) ( -328 -1344 16 ) ( -328 -1344 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 3544 0 16 ) ( 3544 216 16 ) ( 3544 216 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1472 256 16 ) ( -1472 40 16 ) ( -1472 40 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -1288 -1336 16 ) ( -1480 -1336 16 ) ( -1288 -1336 0 ) sky_sp_icbm_a 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1288 -1336 16 ) ( -1480 -1336 16 ) ( -1288 -1336 0 ) sky_sp_icbm_a 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 417
 {
@@ -3886,7 +3886,7 @@ iwmap 4
  ( 3544 1536 24 ) ( 3544 1752 24 ) ( 3544 1752 8 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 1536 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1136 3584 16 ) ( -1328 3584 16 ) ( -1328 3584 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1472 1792 16 ) ( -1472 1576 16 ) ( -1472 1576 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 1536 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -368 3576 16 ) ( -176 3576 16 ) ( -368 3576 0 ) sky_sp_icbm_a 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -368 3576 16 ) ( -176 3576 16 ) ( -368 3576 0 ) sky_sp_icbm_a 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 418
 {
@@ -3895,7 +3895,7 @@ iwmap 4
  ( -520 -1344 16 ) ( -328 -1344 16 ) ( -328 -1344 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -176 3584 16 ) ( -368 3584 16 ) ( -368 3584 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( -1472 248 -112 ) ( -1472 32 -112 ) ( -1472 32 -128 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( -1464 1552 16 ) ( -1464 1768 16 ) ( -1464 1552 0 ) sky_sp_icbm_a 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1464 1552 16 ) ( -1464 1768 16 ) ( -1464 1552 0 ) sky_sp_icbm_a 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 419
 {
@@ -3949,7 +3949,7 @@ iwmap 4
  ( 1168 -1344 16 ) ( 1360 -1344 16 ) ( 1360 -1344 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 1688 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 3544 768 -240 ) ( 3544 984 -240 ) ( 3544 984 -256 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
  ( 1512 3584 16 ) ( 1320 3584 16 ) ( 1320 3584 0 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 1688 0 0 0 lightmap_gray 16384 16384 0 0 0 0
- ( 3536 600 16 ) ( 3536 384 16 ) ( 3536 600 0 ) sky_sp_icbm_a 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3536 600 16 ) ( 3536 384 16 ) ( 3536 600 0 ) sky_sp_icbm_a 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
 }
 // brush 425
 {
